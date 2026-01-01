@@ -29,12 +29,12 @@ This project analyzes sales performance data from a dataset containing **307,640
    - Combined `YEAR` and `MONTH` columns into a single `DATE` column
    - Sorted data chronologically from oldest to newest
 
-![My screenshot](Picture2.png)  ![My_screenshot](picture4.png)
+![My screenshot](images/Picture2.png)  ![My_screenshot](images/picture4.png)
 
 2. **Missing Data Handling**
    - Filtered out blank rows in the `SUPPLIER` column
 
- ![My_screenshot](picture3.png)
+ ![My_screenshot](images/picture3.png)
 
 3. **Negative Values Treatment**
    - Retained negative values as they represent valid business activities:
@@ -83,7 +83,7 @@ Each record was classified based on net activity:
 | **Total Sales (NET - Overall)** | $3,703,850 | $2,087,392 | -$1,616,458 | **-43.7%** ⬇️ |
 | **Total Sales (Gross)** | $3,068,917 | $1,754,437 | -$1,314,480 | **-42.8%** ⬇️ |
 
-![my_screenshot](picture5.png)
+![my_screenshot](images/picture5.png)
 
 ### Year-Over-Year Trends
 
@@ -117,7 +117,7 @@ The dataset exhibits **extremely high variability** (standard deviation often ex
 - **Late 2019:** Minor dip
 - **2020:** Notable increase to ~$3.50, reflecting market dynamics shifts
 
-![my_screenshot](picture6.png)
+![my_screenshot](images/picture6.png)
 
 #### 2. Retail Net Sales Activity
 - **2017:** Peak around $0.70
@@ -125,20 +125,20 @@ The dataset exhibits **extremely high variability** (standard deviation often ex
 - **2020:** Stabilized at depressed levels
 - **Insight:** Reflects structural challenges in traditional retail, including e-commerce competition and COVID-19 impacts
 
-![my_screenshot](picture7.png)
+![my_screenshot](images/picture7.png)
 
 #### 3. Warehouse Net Sales Activity
 - **2017-2019:** Extremely stable at ~$1.00
 - **2020:** Dramatic surge to $2.00-$2.10
 - **Insight:** Pandemic-driven boom in e-commerce fulfillment and logistics demand
 
-![my_screenshot](picture8.png)
+![my_screenshot](images/picture8.png)
 
 ---
 
 ## 📅 Monthly Performance Patterns
 
-![my_screenshot](picture9.png)
+![my_screenshot](images/picture9.png)
 
 ### Sales Distribution
 - **Warehouse Sales:** Largest revenue stream, consistently 3-4x higher than retail ($250K-$400K range)
